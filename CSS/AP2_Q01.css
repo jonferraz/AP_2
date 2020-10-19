@@ -1,17 +1,19 @@
-#body {
-    background-color: black;
-    color: blanchedalmond;
-    font: normal 20pt Arial;
+body{
+    background-color: rgb(75, 71, 71);
+    color: white;
+    font: normal 10pt Arial;
+    text-align: center;
 }
-
 section#div{
     background: white;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 5px 3px 10px black;
+    text-align: ;
 }
-select#resultado{
+select#flista{
     width: 150px;
+    
 }
