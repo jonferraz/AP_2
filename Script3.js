@@ -1,15 +1,17 @@
-  var n1 = 9;
-  var n2 = 6;
-  var n3 = 6;
+  var nome = window.prompt('Qual seu nome')// salvar nome do aluno
+  var n1 = Number.parseFloat(window.prompt('Digite nota 1'));//(parseFoat para converster numero)salvar nota do aluno
+  var n2 = Number.parseFloat(window.prompt('digite nota 2'));
+  var n3 = Number.parseFloat(window.prompt('Digite nata 3'));
+  
 
   var media = (n1 + n2 + n3) /3;
+  
 
-    resp = media + ((n1 + n2 + n3) /3);
-    document.getElementById("Nome do aluno").innerHTML = "Jonathan";
-    document.getElementById("Nota").innerHTML = "Cálculo de aumento: " + media;
-    document.getElementById("Aprovado").innerHTML = "Porcentagem: " + por + "%";    
-    document.getElementById("reposta").innerHTML = "Valor Final: " + resp;
-    
-    return media;
+  document.getElementById("nome").innerHTML = nome;//aparecer nome 
+  document.write('Sua nota é:',media)// aparecer na tela resultado
+  
+
+  
+
 
 
