@@ -1,3 +1,5 @@
+var nome = window.prompt("Entre com seu Nome")
+
 function calcula(value)
 {
 	  por = 0;
@@ -19,6 +21,7 @@ function calcula(value)
     	por = 5;
     }
     resp = value + ((value * por) / 100);
+    document.getElementById("nome").innerHTML = nome;
     document.getElementById("valor").innerHTML = "Salário: " + value;
     document.getElementById("calculo").innerHTML = "Cálculo de aumento: " + ((value * por) / 100);
     document.getElementById("porcetagem").innerHTML = "Porcentagem: " + por + "%";    
@@ -26,4 +29,3 @@ function calcula(value)
     
     return resp;
 }
-
