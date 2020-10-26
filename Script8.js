@@ -1,3 +1,4 @@
+
 var x = Number(window.prompt('Valor real'));
 var soma = 0;
 for (var i = 0; i < 19 ; ) {
