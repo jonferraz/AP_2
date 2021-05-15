@@ -74,9 +74,3 @@ f_jogo()
 print('\033[;1m' + '\033[1;33m' + 'Fim do jogo!! Seu resultado foi:' + '\033[0;0m')
 print(f'\nA quantidade de respostas certas foram: {len(listaCertas)}\nA quantidade de respostas erradas foram: {len(listaErradas)}')
 linha()
-
-
-
-
-
-
